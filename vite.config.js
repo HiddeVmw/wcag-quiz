@@ -448,7 +448,8 @@ export default defineConfig({
     },
     {
       "src": "ios/192.png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "ios/256.png",
