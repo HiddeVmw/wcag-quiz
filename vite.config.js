@@ -9,9 +9,9 @@ export default defineConfig({
     VitePWA({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'My Awesome App',
-        short_name: 'MyApp',
-        description: 'My Awesome App description',
+        name: 'WCAG Kennis',
+        short_name: 'WCAG Kennis',
+        description: 'Test je kennis WCAG kennis',
         theme_color: '#ffffff',
   "icons": [
     {
