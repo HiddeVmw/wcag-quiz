@@ -1,0 +1,22 @@
+export const topics = [
+  {"topic": "Basisprincipes van Toegankelijkheid", "slug": "basisprincipes-toegankelijkheid"},
+  {"topic": "Scherminhoud en Leesvolgorde", "slug": "scherminhoud-leesvolgorde"},
+  {"topic": "Structuur met Koppen en Subkoppen", "slug": "structuur-koppen-subkoppen"},
+  {"topic": "Alternatieve Tekst voor Afbeeldingen", "slug": "alternatieve-tekst-afbeeldingen"},
+  {"topic": "Kleurgebruik en Contrast", "slug": "kleurgebruik-contrast"},
+  {"topic": "Toetsenbordnavigatie en Focusindicatie", "slug": "toetsenbordnavigatie-focusindicatie"},
+  {"topic": "Formulieren en Toegankelijke Invoervelden", "slug": "formulieren-toegankelijke-invoervelden"},
+  {"topic": "Multimedia: Video en Audio", "slug": "multimedia-video-audio"},
+  {"topic": "Leesbaarheid en Tekstaanpassingen", "slug": "leesbaarheid-tekstaanpassingen"},
+  {"topic": "Duidelijke en Betekenisvolle Linkteksten", "slug": "duidelijke-betekenisvolle-linkteksten"},
+  {"topic": "Responsiviteit en Mobiele Toegankelijkheid", "slug": "responsiviteit-mobiele-toegankelijkheid"},
+  {"topic": "Toegankelijkheid van Tabellen en Gegevens", "slug": "toegankelijkheid-tabellen-gegevens"},
+  {"topic": "Aria-Labels en Rolattributen", "slug": "aria-labels-rolattributen"},
+  {"topic": "Lettertypekeuze en Tekstgroottes", "slug": "lettertypekeuze-tekstgroottes"},
+  {"topic": "Navigatiestructuur en Landmarks", "slug": "navigatiestructuur-landmarks"},
+  {"topic": "Focus op Gebruikers met Beperkingen", "slug": "focus-gebruikers-beperkingen"},
+  {"topic": "Toegankelijkheidsaudits en Testing Tools", "slug": "toegankelijkheidsaudits-testing-tools"},
+  {"topic": "Toegankelijkheidsverklaringen en Compliance", "slug": "toegankelijkheidsverklaringen-compliance"},
+  {"topic": "Onderhoud van Toegankelijkheid in Content", "slug": "onderhoud-toegankelijkheid-content"},
+  {"topic": "Praktijkvoorbeelden en Casestudy's", "slug": "praktijkvoorbeelden-casestudys"}
+]

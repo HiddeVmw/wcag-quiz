@@ -1,0 +1,412 @@
+body {
+  background-color: #1a70b0;
+  height: 100vh;
+  margin:0;
+}
+
+#quiz-container {
+  position: relative;
+  padding: 3rem 2rem 2rem 2rem;
+  max-width: 500px;
+  margin: auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 15%)
+}
+
+.results_container {
+  padding: 1rem;
+  background-color:#e5f3fc ;
+  border-radius: 10px;
+}
+
+
+.overview_list {
+  text-align: left;
+}
+
+.correct_answer {
+  color: #093c64;
+}
+.back__button {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.question__div {
+  text-align: left;
+}
+h1 {
+  color: #333;
+  line-height: 2.5rem;
+  margin-top: 0;
+}
+
+h2.question__div {
+  color: #333;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+  text-align: left;
+}
+
+#question-container {
+  /* margin: 20px 0; */
+  font-size: 1.2em;
+        padding: 1rem;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#errorList {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.answer {
+  font-weight: bold;
+  color: #333;
+}
+
+.option-label {
+  cursor: pointer;
+  display: block;
+}
+
+input {
+  margin-right: 5px;
+}
+/* Vertical spacing */
+.space-4 {
+  margin: 0.25rem 0;
+}
+
+.space-8 {
+  margin: 0.5rem 0;
+}
+
+.space-12 {
+  margin: 0.75rem 0;
+}
+
+.space-16 {
+  margin: 1rem 0;
+}
+
+.space-24 {
+  margin: 1.5rem 0;
+}
+
+.space-32 {
+  margin: 2rem 0;
+}
+
+/* Horizontal spacing */
+.space-h-4 {
+  margin: 0 0.25rem;
+}
+
+.space-h-8 {
+  margin: 0 0.5rem;
+}
+
+.space-h-12 {
+  margin: 0 0.75rem;
+}
+
+.space-h-16 {
+  margin: 0 1rem;
+}
+
+.space-h-24 {
+  margin: 0 1.5rem;
+}
+
+.space-h-32 {
+  margin: 0 2rem;
+}
+
+/* Vertical spacing */
+.space-v-4 {
+  margin: 0.25rem 0;
+}
+
+.space-v-8 {
+  margin: 0.5rem 0;
+}
+
+.space-v-12 {
+  margin: 0.75rem 0;
+}
+
+.space-v-16 {
+  margin: 1rem 0;
+}
+
+.space-v-24 {
+  margin: 1.5rem 0;
+}
+
+.space-v-32 {
+  margin: 2rem 0;
+}
+.padding-v-4 {
+  padding: 0.25rem 0;
+}
+
+.padding-v-8 {
+  padding: 0.5rem 0;
+}
+
+.padding-v-12 {
+  padding: 0.75rem 0;
+}
+
+.padding-v-16 {
+  padding: 1rem 0;
+}
+
+.padding-v-24 {
+  padding: 1.5rem 0;
+}
+
+.padding-v-32 {
+  padding: 2rem 0;
+}
+
+.padding-h-4 {
+  padding: 0 0.25rem;
+}
+
+.padding-h-8 {
+  padding: 0 0.5rem;
+}
+
+.padding-h-12 {
+  padding: 0 0.75rem;
+}
+
+.padding-h-16 {
+  padding: 0 1rem;
+}
+
+.padding-h-24 {
+  padding: 0 1.5rem;
+}
+
+.padding-h-32 {
+  padding: 0 2rem;
+}
+
+/* Padding */
+.padding-4 {
+  padding: 0.25rem;
+}
+
+.padding-8 {
+  padding: 0.5rem;
+}
+
+.padding-12 {
+  padding: 0.75rem;
+}
+
+.padding-16 {
+  padding: 1rem;
+}
+
+.padding-24 {
+  padding: 1.5rem;
+}
+
+.padding-32 {
+  padding: 2rem;
+}
+.logo {
+ position: absolute;
+  top: 2.5rem;
+  left: 3rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  background-color: #1a70b0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  border-color: #1a70b0;
+  border-style: solid;
+  border-width: 2px;
+}
+
+button:hover {
+  background-color: #0b5086;  
+  text-decoration: underline;
+  border-color: #0b5086;
+}
+
+button.secondary {
+  background-color: #f5f5f5;
+  color: #0b5086;
+}
+
+a {
+  color: #0b5086;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Screen reader-only text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+/* Text alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Font weight */
+.bold {
+  font-weight: bold;
+}
+
+/* Font size */
+.small {
+  font-size: 0.75rem;
+}
+
+/* 12px in rem */
+.medium {
+  font-size: 1rem;
+}
+
+/* 16px in rem */
+.large {
+  font-size: 1.25rem;
+}
+
+/* 20px in rem */
+
+/* Margin and padding */
+.margin-top {
+  margin-top: 0.625rem;
+}
+
+/* 10px in rem */
+.margin-bottom {
+  margin-bottom: 0.625rem;
+}
+
+/* 10px in rem */
+.margin-left {
+  margin-left: 0.625rem;
+}
+
+/* 10px in rem */
+.margin-right {
+  margin-right: 0.625rem;
+}
+
+/* 10px in rem */
+
+.padding-top {
+  padding-top: 0.625rem;
+}
+
+/* 10px in rem */
+.padding-bottom {
+  padding-bottom: 0.625rem;
+}
+
+/* 10px in rem */
+.padding-left {
+  padding-left: 0.625rem;
+}
+
+/* 10px in rem */
+.padding-right {
+  padding-right: 0.625rem;
+}
+
+/* 10px in rem */
+
+/* Display */
+.hide {
+  display: none;
+}
+
+
+    #error-message {
+      display: block;
+      color: #86041a;
+      margin-top: 5px;
+      /* Optioneel: voeg wat ruimte toe boven de foutmelding */
+    }
+  
+    /* Stijl voor de foutmelding link */
+    #error-link {
+      color: #86041a;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-top: 5px;
+      /* Optioneel: voeg wat ruimte toe boven de link */
+      display: inline-block;
+    }
+  
+    #error-link:hover {
+      text-decoration: none;
+    }
+
+        :focus {
+          outline: 2px dotted black;
+        }
+    
+        /* Voeg een stijl toe aan focusbare elementen wanneer ze worden gefocust via het toetsenbord */
+        body.keyboard-focus :focus {
+          outline: 2px dotted black;
+        }
+    
+        /* Stijl voor focus op links, gebruik je eigen kleur en stijl */
+        a:focus {
+          outline: 2px dotted black;
+        }
+    
+     
+ 
